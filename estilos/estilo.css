@@ -1,6 +1,10 @@
 body{
-    background-color: rgb(74, 24, 24);
+    background-color: #4a1818;
     padding: 10px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
 }
 h1{
     color: antiquewhite;
@@ -11,28 +15,31 @@ h1{
 }
 .contenedor1{
     background-color: crimson;
-    width: 500px;
+    width: 400px;
     padding: 10px;
     padding-left: 30px;
     align-items: center;
 }
 .contenedor2{
-    background-color: aqua;
-    width: 500px;
+    background-color: rgb(44, 11, 126);
+    width: 400px;
     padding: 10px;
-    text-align: center;
+    padding-left: 30px;
+    align-items: center;
 }
 .contenedor3{
     background-color: rgb(66, 80, 66);
-    width: 500px;
+    width: 400px;
     padding: 10px;
-    text-align: center;
+    padding-left: 30px;
+    align-items: center;
 }
 .contenedor4{
-    background-color: rgb(129, 235, 235);
-    width: 500px;
+    background-color: rgb(10, 118, 118);
+    width: 400px;
     padding: 10px;
-    text-align: center;
+    padding-left: 30px;
+    align-items: center;
 }
 h2{
     background-color: rgba(100,100,150,0.5);
@@ -50,5 +57,12 @@ p{
     border-radius: 20px;
     border-top: 2px solid;
     border-block-end: 2px solid yellow;
-    text-shadow: 1px 1px 1px darkblue;
+}
+p.fuego{
+    color: black;
+    text-shadow: 1px 1px 1px darkred;
+}
+p.agua{
+    color: aqua;
+    text-shadow: 3px 3px 5px black;
 }
